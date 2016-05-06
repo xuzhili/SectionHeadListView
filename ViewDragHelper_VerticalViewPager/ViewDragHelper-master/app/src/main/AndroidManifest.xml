@@ -36,7 +36,8 @@
             android:screenOrientation="portrait" />
         <activity android:name=".lession7.LessonSevenActivity" />
         <activity android:name=".LessonEghitActivity" />
-        <activity android:name=".lession9.Lession9Activity"></activity>
+        <activity android:name=".lession9.Lession9Activity" />
+        <activity android:name=".lesson10.AnimationActivity"></activity>
     </application>
 
 </manifest>

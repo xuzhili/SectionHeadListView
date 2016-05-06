@@ -95,5 +95,14 @@
             android:onClick="lesson9"
             android:text="Lesson 9"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_lesson10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="lesson10"
+            android:text="Lesson 10"
+            android:textSize="20sp" />
     </LinearLayout>
 </ScrollView>

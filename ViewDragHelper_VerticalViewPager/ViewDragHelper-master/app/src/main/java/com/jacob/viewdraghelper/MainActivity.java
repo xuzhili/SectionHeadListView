@@ -8,6 +8,7 @@ import android.view.View;
 import com.jacob.viewdraghelper.lession7.LessonSevenActivity;
 import com.jacob.viewdraghelper.lession9.Lession9Activity;
 import com.jacob.viewdraghelper.lesson1.LessonOneActivity;
+import com.jacob.viewdraghelper.lesson10.AnimationActivity;
 import com.jacob.viewdraghelper.lesson2.LessonTwoActivity;
 import com.jacob.viewdraghelper.lesson3.LessonThreeActivity;
 import com.jacob.viewdraghelper.lesson4.LessonFourActivity;
@@ -59,6 +60,11 @@ public class MainActivity extends FragmentActivity {
 
     public void lesson9(View view){
         Intent intent = new Intent(this, Lession9Activity.class);
+        startActivity(intent);
+    }
+
+    public void lesson10(View view){
+        Intent intent = new Intent(this, AnimationActivity.class);
         startActivity(intent);
     }
 
