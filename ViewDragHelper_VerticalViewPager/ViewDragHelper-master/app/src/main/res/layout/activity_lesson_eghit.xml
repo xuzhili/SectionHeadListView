@@ -8,8 +8,38 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jacob.viewdraghelper.LessonEghitActivity">
-    <ListView
+
+    <com.jacob.viewdraghelper.lession7.DragLayoutRight
         android:layout_width="match_parent"
-        android:id="@+id/listview"
-        android:layout_height="match_parent"></ListView>
+        android:id="@+id/drag_layout"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_light">
+
+            <TextView
+                android:id="@+id/iv_banner_top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:text="BottomView" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light">
+
+            <TextView
+                android:id="@+id/iv_banner_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:text="FrontView" />
+
+        </RelativeLayout>
+    </com.jacob.viewdraghelper.lession7.DragLayoutRight>
 </RelativeLayout>
